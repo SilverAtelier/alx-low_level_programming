@@ -1,4 +1,16 @@
 #include<stdio.h>
-int main(){
-	return 0;
+/**
+ * main - is the entry point of the program
+ * Return: Always 0 is success
+ */
+
+int main(void)
+{
+	sizeof(int);
+	sizeof(char);
+	sizeof(long int);
+	sizeof(long long);
+	sizeof(float);
+	return (0);
+
 }
