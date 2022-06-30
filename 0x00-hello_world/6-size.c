@@ -9,7 +9,7 @@ int main(void)
 	sizeof(int);
 	sizeof(char);
 	sizeof(long int);
-	sizeof(long long);
+	sizeof(long long int);
 	sizeof(float);
 	return (0);
 
