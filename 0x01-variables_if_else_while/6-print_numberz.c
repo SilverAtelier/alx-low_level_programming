@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints numbers
- * Return : ALways 0 is success
+ * Return: ALways 0 is success
  */
 
 int main(void)
