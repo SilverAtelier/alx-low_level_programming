@@ -10,9 +10,9 @@ int main(void)
 
 	for (l = '0'; l <= '9'; l++)
 	{
-		for (m = (l + 1);m <= '9';m++)
+		for (m = (l + 1); m <= '9'; m++)
 		{
-			for (s = (m +1);s <= '9'; s++)
+			for (s = (m + 1); s <= '9'; s++)
 			{
 				putchar(l);
 				putchar(m);
