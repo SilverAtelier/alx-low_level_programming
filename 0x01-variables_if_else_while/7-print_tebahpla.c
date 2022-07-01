@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - output reversed alphabet
- * Return : Always 0 is success
+ * Return: Always 0 is success
  */
 
 int main(void)
