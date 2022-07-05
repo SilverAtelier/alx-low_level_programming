@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * main-start of program
+ * print_alphabet-prints alphabets
  * Return: always 0 is success
  */
 void print_alphabet(void)
@@ -11,6 +11,6 @@ void print_alphabet(void)
 	do {
 		_putchar(letter);
 		letter++;
-	}while (letter <= 'z');
+	} while (letter <= 'z');
 	_putchar('\n');
 }
