@@ -14,7 +14,7 @@ int main(void)
 	while (count <= num)
 	{
 		next = cur + prev;
-		printf("%d", next);
+		printf("%ld", next);
 		if ((next % 2) == 0)
 		{
 			sum += next;
