@@ -5,24 +5,19 @@
  */
 int main(void)
 {
-	unsigned long int cur, sum, next, count, num, prev;
+	unsigned long int sm, a, b, sum;
 
-	cur = 1;
-	prev = 0;
-	count = 1;
-	num = 4000000;
-	while (count <= num)
+	sum = 1;
+	a = 1;
+	b = 1;
+	while (b <= 4000000)
 	{
-		next = cur + prev;
-		printf("%ld", next);
-		if ((next % 2) == 0)
-		{
-			sum += next;
-		}
-		prev = cur;
-		cur = next;
-		count++;
+		sum = a + b;
+		a = b;
+		b = sum;
+		if ((sum <= 4000000) && (sum % 2 == 0))
+			sm += sum;
 	}
-	printf("%ld\n", sum);
+	printf("%ld\n", sm);
 	return (0);
 }
