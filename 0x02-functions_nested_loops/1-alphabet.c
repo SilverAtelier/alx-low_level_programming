@@ -1,12 +1,16 @@
 #include"main.h"
-#include<unistd.h>
+
 /**
  * main-start of program
  * Return: always 0 is success
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char letter = 'a';
+
+	do {
+		_putchar(letter);
+		letter++;
+	}while (letter <= 'z')
 	_putchar('\n');
-	return (0);
 }
