@@ -11,7 +11,7 @@ int main(void)
 	cur = 0;
 	next = 1;
 	count = 1;
-	num= = 50;
+	num = 50;
 	
 	while (count < 2)
 	{
@@ -20,7 +20,7 @@ int main(void)
 	}
 	while (count <= num)
 	{
-		next = add(current, next);
+		next = add(cur, next);
 		printf("%d, ", next);
 		cur = next;
 		next = next;
