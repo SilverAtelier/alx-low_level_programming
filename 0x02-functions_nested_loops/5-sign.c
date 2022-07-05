@@ -1,7 +1,8 @@
 #include"main.h"
 /**
  * print_sign-gives out the number of a sign as ouput
- * Return: 1 and prints + if n is greater than zero,returns 0 and prints 0 if n is zero,returns -1 and prints - if n is less than zero
+ * rt(Return)
+ * Return:rt 1 & print + if n>0,rt 0 & print 0 if n==0,rn -1 & print '-' if n<0
  * @n:input character
  */
 int print_sign(int n)
