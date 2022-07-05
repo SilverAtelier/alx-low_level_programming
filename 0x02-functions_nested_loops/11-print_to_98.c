@@ -1,5 +1,5 @@
-#include <stdio>
-#include "main"
+#include <stdio.h>
+#include "main.h"
 /**
  * print_to_98-outputs numbers n to 98
  */

@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * tmes_table-prints the 9 times table
  */
