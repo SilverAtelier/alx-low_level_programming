@@ -2,15 +2,15 @@
 /**
  * _isalpha-checks the letter c if its lower
  * Return:1 if c is a letter 0 otherwise
+ * @c:character input
  */
 
 int _isalpha(int c)
 {	int letter = c;
 
-	if ((letter >='a' && letter <= 'z') || (letter >='A' && letter <= 'Z'))
+	if ((letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z'))
 	{
 		return (1);
 	}
-	
 	return (0);
 }
