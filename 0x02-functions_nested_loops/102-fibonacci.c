@@ -6,23 +6,23 @@
 
 int main(void)
 {
-	int cur, next, count, num;
+	int cur, next, count, num, prev;
 
-	cur = 0;
-	next = 1;
+	cur = 1;
+	prev = 0;
 	count = 1;
 	num = 50;
 	while (count < 2)
 	{
-		printf("%d ,%d \n", cur, next);
+		printf("%d, %d, ", prev, cur);
 		count++;
 	}
 	while (count <= num)
 	{
-		next = cur + next;
+		next = cur + prev;
 		printf("%d, ", next);
+		prev = cur;
 		cur = next;
-		next = next;
 		count++;
 	}
 	return (0);
