@@ -12,11 +12,6 @@ int main(void)
 	prev = 0;
 	count = 1;
 	num = 50;
-	while (count < 2)
-	{
-		printf("%d, %d, ", prev, cur);
-		count++;
-	}
 	while (count <= num)
 	{
 		next = cur + prev;
