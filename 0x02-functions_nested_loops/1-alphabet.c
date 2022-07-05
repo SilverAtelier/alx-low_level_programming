@@ -11,6 +11,6 @@ void print_alphabet(void)
 	do {
 		_putchar(letter);
 		letter++;
-	}while (letter <= 'z')
+	}while (letter <= 'z');
 	_putchar('\n');
 }
