@@ -61,7 +61,7 @@ void jack_bauer(void);
  * print 9 times table
  */
 
-void time_table(void);
+void times_table(void);
 
 /**
  * adds two integers
