@@ -7,7 +7,7 @@ void jack_bauer(void)
 	int hrs;
 	int min;
 
-	while (hrs < 24)
+	do 
 	{
 		while (min < 60)
 		{
@@ -21,5 +21,5 @@ void jack_bauer(void)
 		}
 		min = 0;
 		hrs += 1;
-	}
+	} while (hrs < 24);
 }
