@@ -21,8 +21,7 @@ int main(void)
 			break;
 		}
 		continue;
-		putchar(',');
-		putchar(' ');
+		printf(", ");
 		prev = cur;
 		cur = next;
 		count++;
