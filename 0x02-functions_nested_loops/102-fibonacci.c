@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	int cur, next, count, num, prev;
+	unsigned long int cur, next, count, num, prev;
 
 	cur = 1;
 	prev = 0;
