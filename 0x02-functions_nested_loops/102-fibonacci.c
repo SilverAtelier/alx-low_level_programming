@@ -15,7 +15,14 @@ int main(void)
 	while (count <= num)
 	{
 		next = cur + prev;
-		printf("%ld, ", next);
+		printf("%ld", next);
+		if (count == 50)
+		{
+			break;
+		}
+		continue;
+		putchar(',');
+		putchar(' ');
 		prev = cur;
 		cur = next;
 		count++;
