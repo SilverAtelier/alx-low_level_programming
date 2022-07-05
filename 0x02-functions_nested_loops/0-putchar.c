@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 /**
  *main-start the program
  *Return: Always 0 is sucess
