@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_times_table-print multiplication table
- * 
+ * @n:input
  */
 void print_times_table(int n)
 {
@@ -43,4 +43,4 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-}	
+}
