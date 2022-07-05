@@ -2,6 +2,7 @@
 /**
  * print_sign-gives out the number of a sign as ouput
  * Return: 1 and prints + if n is greater than zero,returns 0 and prints 0 if n is zero,returns -1 and prints - if n is less than zero
+ * @n:input character
  */
 int print_sign(int n)
 {
