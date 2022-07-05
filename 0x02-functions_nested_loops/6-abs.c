@@ -5,7 +5,7 @@
  */
 int _abs(int n)
 {
-	num = n;
+	int num = n;
 
 	if (num > 0)
 	{
