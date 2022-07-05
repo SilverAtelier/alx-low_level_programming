@@ -1,6 +1,10 @@
 #ifndef _MAIN_H_
 #define _HOLBERTON_H_
+/**
+ * _putchar-writes character to stdout
+ */
 
+int _putchar(char c);
 
 /**
  * print lowercase alphabet
