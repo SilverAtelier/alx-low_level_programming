@@ -7,7 +7,7 @@
 int _isalpha(int c)
 {	int letter = c;
 
-	if (letter >='a' && letter <=z)
+	if (letter >='a' && letter <= 'z')
 	{
 		return (1);
 	}
