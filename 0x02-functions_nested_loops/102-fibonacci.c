@@ -20,8 +20,7 @@ int main(void)
 		{
 			break;
 		}
-		continue;
-		printf(", ");
+		printf(", ";
 		prev = cur;
 		cur = next;
 		count++;
