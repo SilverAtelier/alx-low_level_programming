@@ -1,12 +1,6 @@
 #ifndef _MAIN_H_
 #define _HOLBERTON_H_
-/**
- * _putchar- writes c to stdout
- * Return: always 1 on success 
- * error, -1 is returned
- */
 
-int _putchar(char c);
 
 /**
  * print lowercase alphabet
