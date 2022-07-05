@@ -15,7 +15,7 @@ int main(void)
 	while (count <= num)
 	{
 		next = cur + prev;
-		printf("%d, ", next);
+		printf("%ld, ", next);
 		prev = cur;
 		cur = next;
 		count++;
