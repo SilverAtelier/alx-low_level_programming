@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  *main-print first 50 fibonnacci numbers
  *Return: 0 is success
@@ -21,6 +20,6 @@ int main(void)
 		cur = next;
 		count++;
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
