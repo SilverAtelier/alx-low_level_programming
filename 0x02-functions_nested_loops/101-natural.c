@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	int num ,sum;
+	int num, sum;
 
 	for (num = 0; num < 1024; num++)
 	{
@@ -23,5 +23,6 @@ int main(void)
 			continue;
 		}
 	}
+	printf("%d", sum);
 	return (0);
 }
