@@ -9,13 +9,13 @@ int print_sign(int n)
 
 	if (num > 0)
 	{
-		return  (1);
 		_putchar('+');
+		return (1);
 	}
 	else if (num < 0)
 	{
-		return (-1);
 		_putchar('-');
+		return (-1);
 	}
 	else
 		_putchar('-');
