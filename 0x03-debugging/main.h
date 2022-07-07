@@ -1,6 +1,10 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 /**
+ * finds if nuber is positive or negative
+ */
+void positive_or negative(int i)
+/**
  * _putchar-writes character to stdout
  */
 
