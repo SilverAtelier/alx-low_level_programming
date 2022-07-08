@@ -13,4 +13,5 @@
 12. 10-print_triangle.c
 13. 100-prime_factor.c
 14. 101-print_numbers.c
+15. main.h-containes prototype functions
 
