@@ -2,6 +2,7 @@
 
 /**
  * _strlen - gives the length of a string
+ * rev_string-reverse string
  * @s: var
  * Return: length
  */
