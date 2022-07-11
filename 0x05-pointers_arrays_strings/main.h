@@ -4,7 +4,7 @@
 /**
  * putchar -puts character to std output
  */
-int putchar(char c);
+int _putchar(char c);
 
 /**
  * reset_to_98-updates the value it points to to 98
