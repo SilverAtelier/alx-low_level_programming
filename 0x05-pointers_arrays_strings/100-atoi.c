@@ -40,8 +40,8 @@ int idx_num_starts(char *s)
 /**
  * find_sign - determine if integer is negative
  * @s: integer
- * Return: integer 1 or -1
- */
+ * Return:integer 1 or -1
+ **/
 int find_sign(char *s)
 {
 	int negatives = 0, i = 0, sign = 1;
@@ -87,17 +87,16 @@ int _atoi(char *s)
 	}
 
 	i = 1;
+
 	while (i < digits_to_print) 
 	{
 		t *= 10;
 		i++;
 	}
-
 	for (i = digit; i < (digit + digits_to_print); i++) 
 	{
 		num += (s[i] - '0') * t;
 		t /= 10;
 	}
-
 	return (num * sign);
 }
