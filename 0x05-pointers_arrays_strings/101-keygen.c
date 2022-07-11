@@ -4,6 +4,7 @@
 #include <time.h>
 /**
  * main-start of program
+ * Return:0 is success
  */
 
 int main(void)
