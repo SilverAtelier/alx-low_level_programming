@@ -20,6 +20,7 @@ int _strlen(char *s)
 }
 /**
  * rev_string-reverse string
+ * @s:var input
  */
 void rev_string(char *s)
 {
