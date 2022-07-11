@@ -2,7 +2,6 @@
 
 /**
  * _strlen - gives the length of a string
- * rev_string-reverse string
  * @s: var
  * Return: length
  */
@@ -19,7 +18,9 @@ int _strlen(char *s)
 
 	return (len);
 }
-
+/**
+ * rev_string-reverse string
+ */
 void rev_string(char *s)
 {
 	int i = 0;
