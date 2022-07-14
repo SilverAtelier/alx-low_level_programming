@@ -1,5 +1,5 @@
 #include <string.h>
-#include "main"
+#include "main.h"
 
 /**
  * *_strcat-concatenates 2 strings
@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 {
 	char *result;
 
-	result = strcat(*dest, *src);
+	*result = strcat(*dest, *src);
 
-	return (result);
+	return (*result);
 }
