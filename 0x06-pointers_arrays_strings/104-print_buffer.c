@@ -41,7 +41,6 @@ void print_buffer(char *b, int size)
 				putchar(b[j + i]);
 				j++;
 			}
-			_putchar("\n");
 		}
 	}
 }

@@ -12,14 +12,11 @@
  */
 char *leet(char *s)
 {
-	int stringCount, leetCount;
+	int stringCount = 0, leetCount;
 	char leetLetters[] = "aAeEoOtTlL";
 	char leetNums[] = "4433007711";
 
-/*  scan through string */
-	stringCount = 0;
 	while (s[stringCount] != '\0')
-/* check whether leetLetter is found */
 	{
 		leetCount = 0;
 		while (leetCount < 10)
