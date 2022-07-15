@@ -4,7 +4,7 @@
 /**
  * *_strcat-concatenates 2 strings
  * @*dest-var 1
- * @*dest-var 2
+ * @*src-var 2
  * Return: returns pointer
  */
 
