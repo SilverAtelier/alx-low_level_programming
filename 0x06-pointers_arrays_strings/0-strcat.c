@@ -3,8 +3,8 @@
 
 /**
  * *_strcat-concatenates 2 strings
- * @dest-var 1
- * @src-var 2
+ * @dest:var 1
+ * @src:var 2
  * Return: returns pointer
  */
 
