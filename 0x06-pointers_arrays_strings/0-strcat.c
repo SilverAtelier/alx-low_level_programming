@@ -10,12 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	const char *val, *val1, *val2;
+	strcat(*dest, *src);
 
-	val1 = *dest;
-	val2 = *src;
-
-	val = strcat(val1, val2);
-
-	return (val);
+	return (dest);
 }
