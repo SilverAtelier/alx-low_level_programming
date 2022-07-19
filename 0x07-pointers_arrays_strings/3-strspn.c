@@ -27,5 +27,4 @@ unsigned int _strspn(char *s, char *accept)
 		i++;
 	}
 	return (matches); /* return num if all match till end */
-
 }
