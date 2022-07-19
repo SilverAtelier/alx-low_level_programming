@@ -1,6 +1,5 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-
 /**
  * _putchar - puts character to standard output
  * @c: character to put to standard output
