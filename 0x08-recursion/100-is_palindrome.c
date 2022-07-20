@@ -5,9 +5,6 @@
  * Return: 1 if palindrome, 0 if not
  */
 
-int is_palindrome(char *s)
-{
-	int len = _strlen(s);
-
-	return (compare(s, (s + len - 1)));
+void main(void){
+    int is_palindrome(char *s);
 }
