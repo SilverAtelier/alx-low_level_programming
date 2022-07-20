@@ -5,6 +5,9 @@
  * Return: 1 if palindrome, 0 if not
  */
 
-void main(void){
-    int is_palindrome(char *s);
+int _return_f(void){
+    char *s;
+    int a;
+    a = is_palindrome(*s);
+    return (a);
 }
