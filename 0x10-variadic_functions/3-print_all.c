@@ -15,5 +15,6 @@ void print_all(const char * const format, ...)
 		if
 
 	va_start(ap,format);
+	
 	va_end(ap);
 }
