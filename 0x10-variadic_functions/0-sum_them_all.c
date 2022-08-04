@@ -1,7 +1,8 @@
 #include <stdarg.h>
 #include <variadic_functions.h>
 /*sum_them - returns sum of all parameters
- * @n: first arg 
+ * @n: args
+ * Return: sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -13,7 +14,7 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	}
 	va_start(ap, n);
-	for (i; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		sum += va_arg(ap, int);
 	}
