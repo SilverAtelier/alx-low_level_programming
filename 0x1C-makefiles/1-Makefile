@@ -2,9 +2,5 @@ CC = gcc
 SRC = $(wildcard *.c)
 
 
-all: school
-
-school: $(SRC)
-    $(CC) -o $@ $^
-
-.PHONY: all
+all: $(SRC)
+	$(CC) $(SRC)  -o school
