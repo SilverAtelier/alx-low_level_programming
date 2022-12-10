@@ -13,12 +13,7 @@ $(NAME): $(OBJ) m.h
     $(CC) $(CFLAGS) -o $@ $^
 
 clean:
-	$(RM) 
-	$(NAME)
-	$(RM) *~
-	$(RM) *#
-	$(RM) .*~
-	$(RM) .*#
+	$(RM)  *~ $(NAME)
 
 oclean:
 	$(RM) $(OBJ)
